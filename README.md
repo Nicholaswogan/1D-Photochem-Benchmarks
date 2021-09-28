@@ -17,7 +17,7 @@ Example: `benchmark_results/PhotochemPy`
 
 For each benchmark, implement the settings, boundary conditions, etc. in a photochemical model and compute photochemical equilibrium. Produce the following two files
 
-- `<model-name>_<version-number>_<template-name>_mixingratios.txt`, with the following format. Altitude is in kilometers. Example is `benchmark_results/PhotochemPy/ModernEarth/PhotochemPy_v0.2.11_ModernEarth_mixingratios.txt`
+- `<model-name>_<version-number>_<template-name>_mixingratios.txt`, with the following format. Altitude is in kilometers.
 
 ```
 alt     H2O      O2       CO2      etc...
@@ -28,7 +28,7 @@ etc...
 ```
 
 
-- `<model-name>_<version-number>_<template-name>_surfaceflux.txt`, with the following format. Example is `benchmark_results/PhotochemPy/ModernEarth/PhotochemPy_v0.2.11_ModernEarth_surfaceflux.txt`
+- `<model-name>_<version-number>_<template-name>_surfaceflux.txt`, with the following format.
 
 ```
 Species          Surface flux (molecules/cm^2/s)    
