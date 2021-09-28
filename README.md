@@ -6,5 +6,4 @@ Each folder (e.g. `PreindustrialEarth`) is a separate benchmark, and contains fi
 - `<foldername>_T_Kzz.txt` contains the temperature and altitude profiles.
 - `<foldername>_flux.txt` contains the stellar flux as a function of wavelength.
 - `<foldername>.yaml` contains various planet parameters, and the boundary conditions that should be used for the benchmark. Also, this file contains measurements of atmospheric composition and surface gas fluxes, if measurements exist.
-
-Each folder also contains a `README.md`, which gives justifications or citations for the contents of each file, and general notes for the benchmark.
+- `README.md` gives justifications or citations for the selected parameters (e.g. the temperature profile), and contains general notes.
