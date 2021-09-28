@@ -3,7 +3,7 @@
 This repository contains standardized benchmarks for 1-D photochemical models. 
 
 Each folder (e.g. `ModernEarth`) is a separate benchmark, and contains files describing the necessary parameters and model inputs for a photochemical model to complete a benchmark. Following is a description of each file:
-- `<foldername>_T_Kzz.txt` contains the temperature and altitude profiles.
+- `<foldername>_T_Kzz.txt` contains the temperature and eddy diffusion profiles.
 - `<foldername>_flux.txt` contains the stellar flux as a function of wavelength.
 - `<foldername>_settings.yaml` contains various planet parameters, and the boundary conditions that should be used for the benchmark.
 - `<foldername>_data.yaml` contains measurements of atmospheric composition and surface gas fluxes, if measurements exist.
