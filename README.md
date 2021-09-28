@@ -11,6 +11,10 @@ Each folder (e.g. `ModernEarth`) is a separate benchmark, and contains files des
 
 Units of all parameters are [CGS](https://en.wikipedia.org/wiki/Centimetre%E2%80%93gram%E2%80%93second_system_of_units), except when noted otherwise.
 
+## Instructions
+
+Example: `benchmark_results/PhotochemPy`
+
 ## Notes
 
 The `<foldername>_settings.yaml` lists boundary conditions in the following format
