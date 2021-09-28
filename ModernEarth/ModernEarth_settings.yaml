@@ -50,4 +50,127 @@ boundary-conditions:
     upper-boundary:
       veff: 0.0
       type: effusion velocity
+  - name: O
+    lower-boundary:
+      vdep: 1.0
+      type: deposition velocity
+    upper-boundary:
+      veff: 0.0
+      type: effusion velocity
+  - name: H
+    lower-boundary:
+      vdep: 1.0
+      type: deposition velocity
+    upper-boundary:
+      veff: 0.0
+      type: effusion velocity
+  - name: OH
+    lower-boundary:
+      vdep: 1.0
+      type: deposition velocity
+    upper-boundary:
+      veff: 0.0
+      type: effusion velocity
+  - name: HO2
+    lower-boundary:
+      vdep: 1.0
+      type: deposition velocity
+    upper-boundary:
+      veff: 0.0
+      type: effusion velocity
+  - name: H2O2
+    lower-boundary:
+      vdep: 2.0e-1
+      type: deposition velocity
+    upper-boundary:
+      veff: 0.0
+      type: effusion velocity
+  - name: HCO
+    lower-boundary:
+      vdep: 1.0
+      type: deposition velocity
+    upper-boundary:
+      veff: 0.0
+      type: effusion velocity
+  - name: H2CO
+    lower-boundary:
+      vdep: 2e-1
+      type: deposition velocity
+    upper-boundary:
+      veff: 0.0
+      type: effusion velocity
+  - name: CH3
+    lower-boundary:
+      vdep: 1.0
+      type: deposition velocity
+    upper-boundary:
+      veff: 0.0
+      type: effusion velocity
+  - name: NO
+    lower-boundary:
+      vdep: 3.0e-4
+      type: deposition velocity
+    upper-boundary:
+      veff: 0.0
+      type: effusion velocity
+  - name: NO2
+    lower-boundary:
+      vdep: 3.0e-3
+      type: deposition velocity
+    upper-boundary:
+      veff: 0.0
+      type: effusion velocity
+  - name: O3
+    lower-boundary:
+      vdep: 7.0e-2
+      type: deposition velocity
+    upper-boundary:
+      veff: 0.0
+      type: effusion velocity
+  - name: HNO3
+    lower-boundary:
+      vdep: 2.0e-1
+      type: deposition velocity
+    upper-boundary:
+      veff: 0.0
+      type: effusion velocity
+  - name: H2S
+    lower-boundary:
+      flux: 1.0e8
+      vdep: 2.0e-2
+      distributed-height: 10.0
+      type: deposition velocity + distributed flux
+    upper-boundary:
+      veff: 0.0
+      type: effusion velocity
+  - name: HSO
+    lower-boundary:
+      vdep: 1.0
+      type: deposition velocity
+    upper-boundary:
+      veff: 0.0
+      type: effusion velocity
+  - name: H2SO4
+    lower-boundary:
+      vdep: 1.0
+      type: deposition velocity
+    upper-boundary:
+      veff: 0.0
+      type: effusion velocity
+  - name: SO2
+    lower-boundary:
+      flux: 1.0e9
+      vdep: 1.0
+      distributed-height: 10.0
+      type: deposition velocity + distributed flux
+    upper-boundary:
+      veff: 0.0
+      type: effusion velocity
+  - name: NCO
+    lower-boundary:
+      vdep: 1.0
+      type: deposition velocity
+    upper-boundary:
+      veff: 0.0
+      type: effusion velocity
         
