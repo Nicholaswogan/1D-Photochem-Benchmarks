@@ -1,4 +1,4 @@
-# Preindustrial Earth
+# Modern Earth
 
 - **Temperature Profile**: Monthly mean temperature in January 1986 from COSPAR International Reference Atmosphere ([link](https://ccmc.gsfc.nasa.gov/pub/modelweb/atmospheric/cira/cira86ascii/nht.lsn))
 
