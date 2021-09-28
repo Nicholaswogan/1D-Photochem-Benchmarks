@@ -60,7 +60,7 @@ upper-boundary:
   
 # Fixed flux. Flux OUT OF the upper boundary of
 # the model is [flux]
-lupper-boundary:
+upper-boundary:
   flux: 1e9 # molecules/cm^2/s
   type: flux
 ```
