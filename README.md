@@ -1,4 +1,4 @@
 # 1D-Photochem-Benchmarks
 
-This repository contains benchmarks for 1-D photochemical models
+This repository contains instructions for benchmarking 1-D photochemical models.
 

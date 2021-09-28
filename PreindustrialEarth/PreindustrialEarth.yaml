@@ -1,0 +1,22 @@
+OH:
+  - citation: Massie and Hunten 1981
+    DOI: 10.1029/JC086iC10p09859
+    notes: 
+    altitude:
+      - 10.0
+      - 20.0
+      - 30.0
+      - 40.0
+      - 50.0
+      - 60.0
+    mixing-ratio:
+      - 4.1e-13
+      - 1.1e-12
+      - 2.7e-11
+      - 3.7e-10
+      - 7.6e-10
+      - 1.3e-9
+    
+        
+  
+  
