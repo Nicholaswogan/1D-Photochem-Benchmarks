@@ -15,6 +15,30 @@ Units of all parameters are [CGS](https://en.wikipedia.org/wiki/Centimetre%E2%80
 
 Example: `benchmark_results/PhotochemPy`
 
+For each benchmark, implement the settings, boundary conditions, etc. in a photochemical model and compute photochemical equilibrium. Produce the following two files
+
+- `<model-name>_<version-number>_<template-name>_mixingratios.txt`, with the following format. Altitude is in kilometers. Example is `benchmark_results/PhotochemPy/ModernEarth/PhotochemPy_v0.2.11_ModernEarth_mixingratios.txt`
+
+```
+alt     H2O      O2       CO2      etc...
+1.0     0.02     0.210    3.6e-4
+2.0     0.015    0.205    3.6e-4
+2.0     0.014    0.201    3.6e-4
+etc...   
+```
+
+
+- `<model-name>_<version-number>_<template-name>_surfaceflux.txt`, with the following format. Example is `benchmark_results/PhotochemPy/ModernEarth/PhotochemPy_v0.2.11_ModernEarth_surfaceflux.txt`
+
+```
+Species          Surface flux (molecules/cm^2/s)    
+O                -4.40380e+09                       
+O2               8.77371e+11                        
+H2O              -1.16115e+14                       
+H                -4.45445e+04
+etc...
+```
+
 ## Notes
 
 The `<foldername>_settings.yaml` lists boundary conditions in the following format
